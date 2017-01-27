@@ -1,0 +1,2 @@
+wget "https://downloads.puppetlabs.com/windows/puppet-agent-x86-latest.msi" -OutFile "puppet-agent-x86-latest.msi"
+wget "https://downloads.puppetlabs.com/windows/puppet-agent-x64-latest.msi" -OutFile "puppet-agent-x64-latest.msi"

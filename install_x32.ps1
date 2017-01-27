@@ -1,0 +1,2 @@
+Write-Host -BackgroundColor Blue "install_x32.ps1"
+Start-Process "C:\Windows\System32\msiexec.exe" -ArgumentList "/qn /norestart /i $installer_x32 PUPPET_MASTER_SERVER=$SERVER_FQDN PUPPET_AGENT_CERTNAME=$LOCAL_FQDN" -Wait
